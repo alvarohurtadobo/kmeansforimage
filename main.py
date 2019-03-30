@@ -23,8 +23,10 @@ print('Accuracy: ',ret)
 center = np.uint8(center)
 res=center[lab.flatten()]
 
+# Se incremento el tamaño de la imagen
+
 res2 = res.reshape((img.shape))
-res3 = cv2.resize(res2,(320,240))
+res3 = cv2.resize(res2,(640,480))
 # Mostramos la imagen:
 cv2.imshow('Output',res3)
 
