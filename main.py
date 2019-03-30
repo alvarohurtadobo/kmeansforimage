@@ -1,3 +1,8 @@
+""""
+Este programa sirve para re pintar una imagen
+"""
+
+
 import os 
 import sys
 import cv2
